@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="registration.css">
+    <title>Registration</title>
+</head>
+<body>
+    <h1>Online Registration </h1>
+    <h2>User Form
+    <!--form-->
+    <div class="register-box"></div>
+    <form>
+        <table>
+            <tr>
+                <br>
+                <td>
+                   UserName:
+            </td>
+            <td>
+                <input type= "text" placeholder="First Name" name="First name" required>
+            </td>
+        </tr>
+    
+    
+        <tr>
+            <td>
+               Last Name:
+        </td>
+        <td>
+            <input type= "text" placeholder="Last Name" name="Last name" required>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            Phone no:
+        </td>
+        <td>
+            <select>
+                <option>+234</option>
+                <option>+235</option>
+                <option>+236</option>
+                <option>+237</option>
+            </select>
+            <input type="phone" placeholder="phone number" name="phone number">
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+          EmailAddress:
+    </td>
+    <td>
+        <input type= "text" placeholder="Email Address" name="email" required>
+    </td>
+</tr>
+        </table>
+        <br> 
+        <!--label-->
+        <label for="question">Gender</label>
+        <select name="question" id="question">
+            <option value="q1">What do you identify as?</option>
+            <option value="q2">Male</option>
+            <option value="q3">Female</option>
+            <option value="q4">Non-binary</option>
+            <option value="q5">I prefer not to say</option>
+        </select>
+        <br> <br>
+
+         <label for="question">Country</label>
+        <select name="question" id="question">
+            <option value="q1">Select your country</option>
+            <option value="q2">Nigeria</option>
+            <option value="q3">Ghana</option>
+            <option value="q4">South Africa</option>
+            <option value="q5">Egypt</option>
+            <option value="q6">Sudan</option>
+        </select> <br> <br>
+
+       <label for="question">State</label>
+        <select name="question" id="question">
+            <option value="q1">Select your state</option>
+            <option value="q2">Lagos</option>
+            <option value="q3">Ibadan</option>
+            <option value="q4">Ondo</option>
+            <option value="q5">Ogun</option>
+            <option value="q6">Kwara</option>
+        </select> <br> <br>
+  Input Password 
+        <label for="password"></label>
+     <input type="password" id="password"  name="password" placeholder="input password" required>
+     <br> <br>
+     Confirm Password 
+     <label for="password"></label>
+  <input type="password" id="password"  name="password" placeholder="confirm password" required>
+  <br> <br>
+  <a href="login.html"> 
+    <button type="button" class="btn">Login</button></a> 
+
+
+    </form>
+</body>
+</html>
